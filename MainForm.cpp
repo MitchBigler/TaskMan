@@ -25,7 +25,7 @@ void main(array<String^>^ args)
 	// Create a list and populate to display in taskList
 	System::Collections::Generic::List<Task^>^ tasks = gcnew System::Collections::Generic::List<Task^>();
 
-	Task^ Task1 = gcnew Task("Complete Project", "Finish this program");
+	Task^ Task1 = gcnew Task("Complete Project", "Finish this program", "Other");
 
 	// Add task to test
 	tasks->Add(Task1);
